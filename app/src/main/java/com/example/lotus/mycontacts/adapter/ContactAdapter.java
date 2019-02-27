@@ -16,7 +16,7 @@ import com.example.lotus.mycontacts.model.Contact;
 
 import java.util.List;
 
-public class ContactAdapter extends ArrayAdapter<Contact> {
+public class    ContactAdapter extends ArrayAdapter<Contact> {
 
     private Context context;
     private int resource;
