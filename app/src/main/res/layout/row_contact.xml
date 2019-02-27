@@ -16,13 +16,11 @@
         android:orientation="horizontal">
 
 
-        <ImageButton
+        <ImageView
             android:id="@+id/image_view_contact_display"
             android:layout_width="56dp"
             android:layout_height="56dp"
-            android:clickable="true"
-            android:contextClickable="true"
-            android:longClickable="true"
+            android:src="@drawable/ic_user"
 
              />
 
@@ -47,18 +45,17 @@
                     android:maxLines="1"
                     android:text="Username"
                     android:textColor="@android:color/black"
-                    android:textStyle="bold"
-                    />
+                    android:textStyle="bold" />
 
 
             </LinearLayout>
 
             <TextView
-                android:maxLines="1"
                 android:id="@+id/text_view_contact_number"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Status"/>
+                android:maxLines="1"
+                android:text="Status" />
         </LinearLayout>
 
     </LinearLayout>
