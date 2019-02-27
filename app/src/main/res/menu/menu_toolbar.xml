@@ -14,16 +14,6 @@
         android:id="@+id/delete"
         android:title="Delete"
         />
-    <item
-        android:id="@+id/search"
-        app:showAsAction="always"
-        android:icon="@drawable/ic_action_name"
-        android:title="" />
-    <item
-        android:id="@+id/person"
-        app:showAsAction="always"
-        android:icon="@drawable/ic_add_person"
-        android:title=""
-        />
+
 
 </menu>
